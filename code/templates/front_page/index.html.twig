@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FrontPageController!{% endblock %}
+
+{% block body %}
+{% for notice in app.flashes('notice') %}
+    {{ notice|trans }}
+{% endfor %}
+{{ form(form) }}
+{% endblock %}
