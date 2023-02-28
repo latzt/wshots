@@ -57,7 +57,7 @@ Encore
     })
 
     // enables Sass/SCSS support
-    .enableSassLoader()
+    // .enableSassLoader()
 
     // @see https://symfony.com/doc/current/frontend/encore/postcss.html
     .enablePostCssLoader()
